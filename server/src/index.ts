@@ -6,7 +6,10 @@ import { scheduleTrashPurge } from './jobs/trash.js';
 async function main() {
   await connectDb();
   const app = createApp();
-  app.listen(env.PORT, () => console.log(`[api] listening on http://localhost:${env.PORT}`));
+  app.listen(env.PORT, () => {
+    console.log(`[api] listening on http://localhost:${env.PORT}`);
+    console.log(`[cors] allowed origins: ${env.clientOrigins.join(', ') || '(none)'}`);
+  });
   scheduleTrashPurge();
 }
 

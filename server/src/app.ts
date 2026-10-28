@@ -11,6 +11,9 @@ import { webhooksRouter } from './routes/webhooks.js';
 import { seoRouter } from './routes/seo.js';
 import { errorHandler, notFoundHandler } from './middleware/error.js';
 
+/** Each blocked origin is logged once, so a misconfigured CLIENT_URL is obvious in the host's logs. */
+const reportedOrigins = new Set<string>();
+
 export function createApp() {
   const app = express();
   app.set('trust proxy', 1);
@@ -19,7 +22,14 @@ export function createApp() {
   app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
   app.use(
     cors({
-      origin: (origin, cb) => cb(null, !origin || env.clientOrigins.includes(origin)),
+      origin: (origin, cb) => {
+        const allowed = !origin || env.clientOrigins.includes(origin);
+        if (!allowed && !reportedOrigins.has(origin)) {
+          reportedOrigins.add(origin);
+          console.warn(`[cors] blocked ${origin} — add it to CLIENT_URL (currently: ${env.clientOrigins.join(', ')})`);
+        }
+        cb(null, allowed);
+      },
       credentials: true,
     }),
   );
