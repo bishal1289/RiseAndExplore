@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "siteName": "RISE – Resourceful Impact in Scholastic Education",
+    "defaultDescription": "RISE serves free meals, keeps students in school and stocks the pantries our partner schools rely on, across North Texas.",
+    "home": "Together, we rise",
+    "about": "About us",
+    "programs": "Our programs",
+    "events": "Events",
+    "gallery": "Gallery",
+    "getInvolved": "Get involved",
+    "shop": "Shop",
+    "donate": "Donate",
+    "contact": "Contact",
+    "notFound": "Page not found"
+  },
+  "nav": {
+    "about": "About",
+    "programs": "Programs",
+    "events": "Events",
+    "gallery": "Gallery",
+    "getInvolved": "Get involved",
+    "shop": "Shop",
+    "contact": "Contact",
+    "donate": "Donate",
+    "home": "Home",
+    "menu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "skip": "Skip to content",
+    "language": "Language",
+    "backToTop": "Back to top"
+  },
+  "common": {
+    "donate": "Donate",
+    "volunteer": "Volunteer",
+    "learnMore": "Learn more",
+    "close": "Close",
+    "loading": "Loading…",
+    "error": "We couldn’t load this right now. Please try again.",
+    "retry": "Try again",
+    "play": "Play video: {{title}}",
+    "watch": "Watch",
+    "photosVideo": "Photos & video",
+    "seeAll": "See all",
+    "previous": "Previous",
+    "next": "Next",
+    "required": "required",
+    "optional": "optional",
+    "send": "Send",
+    "sending": "Sending…",
+    "directions": "Get directions"
+  },
+  "donate": {
+    "today": "Donate today",
+    "taxChip": "501(c)(3)",
+    "oneTime": "One-time",
+    "monthly": "Monthly",
+    "frequency": "Donation frequency",
+    "amount": "Donation amount",
+    "cta": "Donate ${{amount}}",
+    "ctaMonthly": "Donate ${{amount}}/month",
+    "secure": "Secure checkout by Zeffy — 100% of your donation goes to RISE.",
+    "modalTitle": "Make a donation",
+    "formTitle": "RISE donation form (Zeffy)",
+    "notConfigured": "Online donations are being set up. Please check back soon or contact us to give.",
+    "chosen": "You picked ${{amount}} ({{frequency}}). Enter it in the form below."
+  },
+  "home": {
+    "watchChip": "{{label}} {{duration}}",
+    "openVideo": "Open the full video",
+    "photosVideo": "Photos & video",
+    "testimonialLabel": "From our partners",
+    "carousel": "Partner testimonials",
+    "slide": "Testimonial {{n}} of {{total}}",
+    "goToSlide": "Show testimonial {{n}}"
+  },
+  "events": {
+    "upcoming": "Upcoming events",
+    "past": "Past events",
+    "noUpcoming": "No upcoming events right now — check back soon.",
+    "noPast": "Past events will appear here.",
+    "intro": "Meals, pantry fills and drives across North Texas. Come help, or come eat.",
+    "when": "When",
+    "where": "Where",
+    "photos": "Photos",
+    "videos": "Videos",
+    "volunteerHere": "Volunteer at this event",
+    "spotsLeft_one": "{{count}} volunteer spot left",
+    "spotsLeft_other": "{{count}} volunteer spots left",
+    "full": "Volunteer spots are full — thank you!",
+    "backToEvents": "All events",
+    "type": {
+      "community-meal": "Community meal",
+      "pantry-fill": "Pantry fill",
+      "clothing-drive": "Clothing drive",
+      "other": "Event"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "intro": "Moments from meals, pantry fills and drives — the community in action.",
+    "filterBy": "Filter photos",
+    "all": "All",
+    "byEvent": "Event",
+    "byProgram": "Program",
+    "empty": "No photos here yet.",
+    "open": "Open photo: {{caption}}"
+  },
+  "about": {
+    "title": "Neighbors lifting neighbors.",
+    "intro": "RISE — Resourceful Impact in Scholastic Education — is a North Texas nonprofit that meets families where they are: at the table, in the classroom and at the school pantry.",
+    "storyTitle": "Our story",
+    "story1": "RISE started with a single community meal and a simple idea: when people sit down together, nobody is invisible. What began as one table in Mount Pleasant grew into a network of meals, school pantries and clothing drives across North Texas.",
+    "story2": "Today we partner with schools and organizations like Communities In Schools of Greater Tarrant County to keep pantries stocked, keep students in school and open doors from middle school all the way to a career.",
+    "missionTitle": "Our mission",
+    "mission": "RISE uplifts individuals in need through empowerment, education, and community service for a brighter future.",
+    "valuesTitle": "What guides us",
+    "values": {
+      "dignity": "Dignity",
+      "dignityText": "Every meal is served at a table, every item is new or like-new.",
+      "education": "Education",
+      "educationText": "School is the path forward — we help students stay on it.",
+      "community": "Community",
+      "communityText": "Neighbors serving neighbors, side by side."
+    },
+    "teamTitle": "Our team",
+    "partnersTitle": "Partners who rise with us",
+    "stats": {
+      "schools": "partner schools",
+      "meals": "meals served",
+      "volunteers": "volunteers"
+    }
+  },
+  "programs": {
+    "title": "Four ways we show up.",
+    "intro": "From a hot meal to a college application, our programs meet students and families at every step.",
+    "getInvolved": "Help with this program"
+  },
+  "involved": {
+    "title": "Get involved",
+    "intro": "Serve a meal, sort a pantry, mentor a student. However you give your time, you help a neighbor rise.",
+    "formTitle": "Volunteer with RISE",
+    "formIntro": "Tell us a little about yourself and we’ll reach out with upcoming opportunities.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "interests": "I’m interested in",
+    "availability": "Availability",
+    "availabilityPlaceholder": "e.g. weekends, weekday evenings",
+    "message": "Anything else we should know?",
+    "event": "Event",
+    "anyEvent": "Any event",
+    "submit": "Sign me up",
+    "success": "Thank you! We got your sign-up and will be in touch soon.",
+    "interestsOptions": {
+      "meals": "Serving community meals",
+      "pantry": "Stocking school pantries",
+      "clothing": "Clothing drives",
+      "mentoring": "Mentoring & tutoring",
+      "events": "Event setup & photos",
+      "other": "Something else"
+    },
+    "ways": {
+      "volunteer": "Volunteer",
+      "volunteerText": "Join a meal, a pantry fill or a drive. No experience needed.",
+      "donate": "Donate",
+      "donateText": "Every dollar goes to food, hygiene kits, shoes and clothing.",
+      "partner": "Partner",
+      "partnerText": "Businesses and schools can sponsor events and drives."
+    },
+    "corporateTitle": "Corporate & school partnerships",
+    "corporateText": "Sponsor a community meal, run a workplace drive, or adopt a partner school pantry for the year. We’ll share photos, impact numbers and recognition with your team.",
+    "corporateList": [
+      "Sponsor a community meal",
+      "Host a hygiene-kit or clothing drive at work",
+      "Adopt a school pantry for the year",
+      "Bring a team volunteer day"
+    ],
+    "corporateCta": "Talk to us about partnering"
+  },
+  "shop": {
+    "title": "Shop RISE merch",
+    "subtitle": "Every purchase supports our programs.",
+    "featured": "Featured",
+    "view": "View in store",
+    "notConfigured": "Our store is opening soon. Thanks for your patience!",
+    "storeTitle": "RISE store"
+  },
+  "donatePage": {
+    "title": "Your gift feeds, clothes and keeps students in school.",
+    "intro": "Donations are processed securely by Zeffy, so 100% of your gift reaches RISE — no platform fees.",
+    "impactTitle": "What your gift does",
+    "impact25": "Stocks a weekend food bag for a student’s family",
+    "impact50": "Builds two hygiene kits for students",
+    "impact100": "Buys a new pair of shoes and school clothes",
+    "impact250": "Sponsors a table at a community meal",
+    "faqTitle": "Questions about giving",
+    "faq": [
+      {
+        "q": "Is my donation tax-deductible?",
+        "a": "Yes. RISE is a 501(c)(3) nonprofit, and you’ll receive an emailed tax receipt from Zeffy right after you give."
+      },
+      {
+        "q": "Why Zeffy?",
+        "a": "Zeffy is a free platform for nonprofits. It doesn’t charge us fees, so all of your donation goes to our programs. Zeffy may suggest an optional tip to support their platform — you can set it to $0."
+      },
+      {
+        "q": "Can I give monthly?",
+        "a": "Yes. Choose “Monthly” in the form. You can cancel any time from the link in your receipt email."
+      },
+      {
+        "q": "Can I donate food, clothing or supplies?",
+        "a": "Absolutely. Contact us and we’ll tell you what our partner pantries need most right now."
+      },
+      {
+        "q": "Is my payment information safe?",
+        "a": "Yes. Payments are handled entirely by Zeffy’s secure checkout. RISE never sees or stores your card details."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Say hello.",
+    "intro": "Questions, partnerships, donations of goods — we’d love to hear from you.",
+    "formTitle": "Send us a message",
+    "subject": "Subject",
+    "message": "Message",
+    "success": "Thanks! Your message is on its way and we’ll reply soon.",
+    "infoTitle": "Contact info",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "map": "Map showing the RISE office"
+  },
+  "footer": {
+    "explore": "Explore",
+    "programs": "Programs",
+    "contact": "Contact",
+    "mission": "RISE uplifts individuals in need through empowerment, education, and community service for a brighter future. Let’s rise together.",
+    "copyright": "Copyright © Resourceful Impact in Scholastic Education {{year}}. All Rights Reserved.",
+    "nonprofit": "RISE is a 501(c)(3) nonprofit. Donations are tax-deductible.",
+    "social": "Follow RISE on {{network}}"
+  },
+  "form": {
+    "errorRequired": "Please fill in this field.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "notFound": {
+    "title": "This page wandered off.",
+    "text": "We couldn’t find the page you were looking for. Let’s get you back to the table.",
+    "home": "Back to home"
+  },
+  "video": {
+    "player": "Video player",
+    "noSupport": "Your browser doesn’t support embedded videos."
+  }
+}

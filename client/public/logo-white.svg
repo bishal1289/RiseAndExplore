@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 48" role="img" aria-label="RISE">
+  <title>RISE</title>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M6 34a18 18 0 0 1 36 0" stroke="#F2B233" stroke-width="5" stroke-linecap="round"/>
+    <path d="M24 10v6M10.6 15.6l4.2 4.2M37.4 15.6l-4.2 4.2" stroke="#F2B233" stroke-width="4" stroke-linecap="round"/>
+    <path d="M2 40h44" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <text x="56" y="38" fill="#FFFFFF" font-family="Fraunces, Georgia, serif" font-size="34" font-weight="900" letter-spacing="1">RISE</text>
+  </g>
+</svg>

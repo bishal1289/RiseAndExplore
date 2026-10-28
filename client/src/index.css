@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 96px;
+  }
+  body {
+    @apply bg-bg font-sans text-base leading-[1.6] text-ink antialiased md:text-[17px];
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif font-black text-navy;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+  :focus-visible {
+    @apply outline-none ring-[3px] ring-primary ring-offset-2 ring-offset-white;
+  }
+  ::selection {
+    @apply bg-primary/20;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto !important;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-rise {
+    @apply mx-auto w-full max-w-content px-6 lg:px-0;
+  }
+  .section {
+    @apply py-section-sm md:py-section;
+  }
+  .label {
+    @apply font-sans text-label font-semibold uppercase;
+  }
+  .h1 {
+    @apply font-serif text-h1 font-black md:text-h1-lg;
+  }
+  .h2 {
+    @apply font-serif text-h2 font-black md:text-h2-lg;
+  }
+  .prose-rise {
+    @apply space-y-4 text-ink;
+  }
+  .prose-rise h2 {
+    @apply mt-8 text-2xl;
+  }
+  .prose-rise h3 {
+    @apply mt-6 text-xl;
+  }
+  .prose-rise a {
+    @apply font-semibold text-primary underline underline-offset-2;
+  }
+  .prose-rise ul {
+    @apply list-disc space-y-1 pl-6;
+  }
+  .prose-rise ol {
+    @apply list-decimal space-y-1 pl-6;
+  }
+  .prose-rise blockquote {
+    @apply border-l-4 border-primary pl-4 italic text-muted;
+  }
+  .input {
+    @apply h-12 w-full rounded-2xl border border-navy/15 bg-white px-4 text-ink placeholder:text-muted/70 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30;
+  }
+  textarea.input {
+    @apply h-auto min-h-[120px] py-3;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "siteName": "RISE – Resourceful Impact in Scholastic Education",
+    "defaultDescription": "RISE sirve comidas gratuitas, mantiene a los estudiantes en la escuela y abastece las despensas de las que dependen nuestras escuelas aliadas en el norte de Texas.",
+    "home": "Juntos, nos levantamos",
+    "about": "Quiénes somos",
+    "programs": "Nuestros programas",
+    "events": "Eventos",
+    "gallery": "Galería",
+    "getInvolved": "Participa",
+    "shop": "Tienda",
+    "donate": "Donar",
+    "contact": "Contacto",
+    "notFound": "Página no encontrada"
+  },
+  "nav": {
+    "about": "Nosotros",
+    "programs": "Programas",
+    "events": "Eventos",
+    "gallery": "Galería",
+    "getInvolved": "Participa",
+    "shop": "Tienda",
+    "contact": "Contacto",
+    "donate": "Donar",
+    "home": "Inicio",
+    "menu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "skip": "Saltar al contenido",
+    "language": "Idioma",
+    "backToTop": "Volver arriba"
+  },
+  "common": {
+    "donate": "Donar",
+    "volunteer": "Ser voluntario",
+    "learnMore": "Más información",
+    "close": "Cerrar",
+    "loading": "Cargando…",
+    "error": "No pudimos cargar esto ahora. Inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "play": "Reproducir video: {{title}}",
+    "watch": "Ver",
+    "photosVideo": "Fotos y video",
+    "seeAll": "Ver todo",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "required": "obligatorio",
+    "optional": "opcional",
+    "send": "Enviar",
+    "sending": "Enviando…",
+    "directions": "Cómo llegar"
+  },
+  "donate": {
+    "today": "Dona hoy",
+    "taxChip": "501(c)(3)",
+    "oneTime": "Una vez",
+    "monthly": "Mensual",
+    "frequency": "Frecuencia de la donación",
+    "amount": "Monto de la donación",
+    "cta": "Donar ${{amount}}",
+    "ctaMonthly": "Donar ${{amount}}/mes",
+    "secure": "Pago seguro con Zeffy — el 100% de tu donación va a RISE.",
+    "modalTitle": "Hacer una donación",
+    "formTitle": "Formulario de donación de RISE (Zeffy)",
+    "notConfigured": "Estamos configurando las donaciones en línea. Vuelve pronto o contáctanos para donar.",
+    "chosen": "Elegiste ${{amount}} ({{frequency}}). Ingrésalo en el formulario de abajo."
+  },
+  "home": {
+    "watchChip": "{{label}} {{duration}}",
+    "openVideo": "Abrir el video completo",
+    "photosVideo": "Fotos y video",
+    "testimonialLabel": "De nuestros aliados",
+    "carousel": "Testimonios de aliados",
+    "slide": "Testimonio {{n}} de {{total}}",
+    "goToSlide": "Mostrar testimonio {{n}}"
+  },
+  "events": {
+    "upcoming": "Próximos eventos",
+    "past": "Eventos pasados",
+    "noUpcoming": "No hay eventos próximos por ahora — vuelve pronto.",
+    "noPast": "Los eventos pasados aparecerán aquí.",
+    "intro": "Comidas, surtido de despensas y colectas en el norte de Texas. Ven a ayudar o ven a comer.",
+    "when": "Cuándo",
+    "where": "Dónde",
+    "photos": "Fotos",
+    "videos": "Videos",
+    "volunteerHere": "Sé voluntario en este evento",
+    "spotsLeft_one": "Queda {{count}} lugar para voluntarios",
+    "spotsLeft_other": "Quedan {{count}} lugares para voluntarios",
+    "full": "Los lugares para voluntarios están llenos — ¡gracias!",
+    "backToEvents": "Todos los eventos",
+    "type": {
+      "community-meal": "Comida comunitaria",
+      "pantry-fill": "Surtido de despensa",
+      "clothing-drive": "Colecta de ropa",
+      "other": "Evento"
+    }
+  },
+  "gallery": {
+    "title": "Galería",
+    "intro": "Momentos de comidas, surtido de despensas y colectas — la comunidad en acción.",
+    "filterBy": "Filtrar fotos",
+    "all": "Todas",
+    "byEvent": "Evento",
+    "byProgram": "Programa",
+    "empty": "Todavía no hay fotos aquí.",
+    "open": "Abrir foto: {{caption}}"
+  },
+  "about": {
+    "title": "Vecinos que levantan a vecinos.",
+    "intro": "RISE — Resourceful Impact in Scholastic Education — es una organización sin fines de lucro del norte de Texas que acompaña a las familias donde están: en la mesa, en el salón de clases y en la despensa escolar.",
+    "storyTitle": "Nuestra historia",
+    "story1": "RISE comenzó con una sola comida comunitaria y una idea sencilla: cuando las personas se sientan juntas, nadie es invisible. Lo que empezó como una mesa en Mount Pleasant creció hasta convertirse en una red de comidas, despensas escolares y colectas de ropa en el norte de Texas.",
+    "story2": "Hoy colaboramos con escuelas y organizaciones como Communities In Schools of Greater Tarrant County para mantener las despensas abastecidas, mantener a los estudiantes en la escuela y abrir puertas desde la secundaria hasta una carrera profesional.",
+    "missionTitle": "Nuestra misión",
+    "mission": "RISE eleva a las personas necesitadas a través del empoderamiento, la educación y el servicio comunitario para un futuro mejor.",
+    "valuesTitle": "Lo que nos guía",
+    "values": {
+      "dignity": "Dignidad",
+      "dignityText": "Cada comida se sirve en una mesa, cada artículo es nuevo o casi nuevo.",
+      "education": "Educación",
+      "educationText": "La escuela es el camino — ayudamos a los estudiantes a seguir en él.",
+      "community": "Comunidad",
+      "communityText": "Vecinos que sirven a vecinos, hombro con hombro."
+    },
+    "teamTitle": "Nuestro equipo",
+    "partnersTitle": "Aliados que se levantan con nosotros",
+    "stats": {
+      "schools": "escuelas aliadas",
+      "meals": "comidas servidas",
+      "volunteers": "voluntarios"
+    }
+  },
+  "programs": {
+    "title": "Cuatro formas en que estamos presentes.",
+    "intro": "Desde una comida caliente hasta una solicitud universitaria, nuestros programas acompañan a estudiantes y familias en cada paso.",
+    "getInvolved": "Ayuda con este programa"
+  },
+  "involved": {
+    "title": "Participa",
+    "intro": "Sirve una comida, organiza una despensa, sé mentor de un estudiante. Como sea que des tu tiempo, ayudas a un vecino a levantarse.",
+    "formTitle": "Sé voluntario con RISE",
+    "formIntro": "Cuéntanos un poco sobre ti y te contactaremos con las próximas oportunidades.",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "interests": "Me interesa",
+    "availability": "Disponibilidad",
+    "availabilityPlaceholder": "p. ej. fines de semana, tardes entre semana",
+    "message": "¿Algo más que debamos saber?",
+    "event": "Evento",
+    "anyEvent": "Cualquier evento",
+    "submit": "Inscribirme",
+    "success": "¡Gracias! Recibimos tu inscripción y te contactaremos pronto.",
+    "interestsOptions": {
+      "meals": "Servir comidas comunitarias",
+      "pantry": "Abastecer despensas escolares",
+      "clothing": "Colectas de ropa",
+      "mentoring": "Mentoría y tutoría",
+      "events": "Montaje de eventos y fotos",
+      "other": "Otra cosa"
+    },
+    "ways": {
+      "volunteer": "Voluntariado",
+      "volunteerText": "Únete a una comida, un surtido de despensa o una colecta. No se necesita experiencia.",
+      "donate": "Dona",
+      "donateText": "Cada dólar se destina a comida, kits de higiene, zapatos y ropa.",
+      "partner": "Alíate",
+      "partnerText": "Empresas y escuelas pueden patrocinar eventos y colectas."
+    },
+    "corporateTitle": "Alianzas con empresas y escuelas",
+    "corporateText": "Patrocina una comida comunitaria, organiza una colecta en tu trabajo o adopta la despensa de una escuela aliada durante el año. Compartiremos fotos, cifras de impacto y reconocimiento con tu equipo.",
+    "corporateList": [
+      "Patrocina una comida comunitaria",
+      "Organiza una colecta de kits de higiene o ropa en el trabajo",
+      "Adopta una despensa escolar durante el año",
+      "Trae a tu equipo a un día de voluntariado"
+    ],
+    "corporateCta": "Hablemos de una alianza"
+  },
+  "shop": {
+    "title": "Tienda de RISE",
+    "subtitle": "Cada compra apoya nuestros programas.",
+    "featured": "Destacados",
+    "view": "Ver en la tienda",
+    "notConfigured": "Nuestra tienda abrirá pronto. ¡Gracias por tu paciencia!",
+    "storeTitle": "Tienda de RISE"
+  },
+  "donatePage": {
+    "title": "Tu donación alimenta, viste y mantiene a los estudiantes en la escuela.",
+    "intro": "Las donaciones se procesan de forma segura con Zeffy, así que el 100% de tu aporte llega a RISE — sin comisiones de plataforma.",
+    "impactTitle": "Lo que logra tu donación",
+    "impact25": "Llena una bolsa de comida de fin de semana para la familia de un estudiante",
+    "impact50": "Arma dos kits de higiene para estudiantes",
+    "impact100": "Compra un par de zapatos nuevos y ropa escolar",
+    "impact250": "Patrocina una mesa en una comida comunitaria",
+    "faqTitle": "Preguntas sobre donar",
+    "faq": [
+      {
+        "q": "¿Mi donación es deducible de impuestos?",
+        "a": "Sí. RISE es una organización 501(c)(3) y recibirás un recibo fiscal por correo de Zeffy justo después de donar."
+      },
+      {
+        "q": "¿Por qué Zeffy?",
+        "a": "Zeffy es una plataforma gratuita para organizaciones sin fines de lucro. No nos cobra comisiones, así que toda tu donación va a nuestros programas. Zeffy puede sugerir una propina opcional para su plataforma — puedes ponerla en $0."
+      },
+      {
+        "q": "¿Puedo donar mensualmente?",
+        "a": "Sí. Elige “Mensual” en el formulario. Puedes cancelar en cualquier momento desde el enlace de tu recibo."
+      },
+      {
+        "q": "¿Puedo donar comida, ropa o artículos?",
+        "a": "¡Claro! Contáctanos y te diremos qué necesitan más nuestras despensas aliadas en este momento."
+      },
+      {
+        "q": "¿Mi información de pago está segura?",
+        "a": "Sí. Los pagos se procesan completamente en el sistema seguro de Zeffy. RISE nunca ve ni guarda los datos de tu tarjeta."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Saludos.",
+    "intro": "Preguntas, alianzas, donaciones en especie — nos encantaría saber de ti.",
+    "formTitle": "Envíanos un mensaje",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "success": "¡Gracias! Tu mensaje va en camino y te responderemos pronto.",
+    "infoTitle": "Información de contacto",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "address": "Dirección",
+    "map": "Mapa con la oficina de RISE"
+  },
+  "footer": {
+    "explore": "Explorar",
+    "programs": "Programas",
+    "contact": "Contacto",
+    "mission": "RISE eleva a las personas necesitadas a través del empoderamiento, la educación y el servicio comunitario para un futuro mejor. Levantémonos juntos.",
+    "copyright": "Copyright © Resourceful Impact in Scholastic Education {{year}}. Todos los derechos reservados.",
+    "nonprofit": "RISE es una organización 501(c)(3). Las donaciones son deducibles de impuestos.",
+    "social": "Sigue a RISE en {{network}}"
+  },
+  "form": {
+    "errorRequired": "Por favor completa este campo.",
+    "errorEmail": "Ingresa un correo electrónico válido.",
+    "errorGeneric": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "notFound": {
+    "title": "Esta página se perdió.",
+    "text": "No encontramos la página que buscabas. Volvamos a la mesa.",
+    "home": "Volver al inicio"
+  },
+  "video": {
+    "player": "Reproductor de video",
+    "noSupport": "Tu navegador no admite videos integrados."
+  }
+}
