@@ -32,13 +32,28 @@ if (parsed.NODE_ENV === 'production' && parsed.JWT_SECRET.startsWith('dev-only')
   throw new Error('JWT_SECRET must be set in production');
 }
 
+/**
+ * CORS allow-list: everything in CLIENT_URL plus the public website itself (SITE_URL).
+ * Browsers send the Origin without a path or trailing slash, so normalize what was typed in the dashboard.
+ */
+function allowedOrigins(clientUrl: string, siteUrl: string) {
+  const origins = new Set<string>();
+  for (const raw of [...clientUrl.split(','), siteUrl]) {
+    const value = raw.trim().replace(/^["']|["']$/g, '');
+    if (!value) continue;
+    try {
+      origins.add(new URL(value).origin);
+    } catch {
+      console.warn(`[cors] ignoring invalid origin "${value}" — use a full URL like https://example.org`);
+    }
+  }
+  return [...origins];
+}
+
 export const env = {
   ...parsed,
   isProd: parsed.NODE_ENV === 'production',
-  // Browsers send the Origin without a trailing slash, so normalize what was typed in the dashboard.
-  clientOrigins: parsed.CLIENT_URL.split(',')
-    .map((s) => s.trim().replace(/^["']|["']$/g, '').replace(/\/+$/, ''))
-    .filter(Boolean),
+  clientOrigins: allowedOrigins(parsed.CLIENT_URL, parsed.SITE_URL),
   cloudinaryEnabled: Boolean(
     parsed.CLOUDINARY_CLOUD_NAME && parsed.CLOUDINARY_API_KEY && parsed.CLOUDINARY_API_SECRET,
   ),
