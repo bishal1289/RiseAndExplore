@@ -35,8 +35,9 @@ if (parsed.NODE_ENV === 'production' && parsed.JWT_SECRET.startsWith('dev-only')
 export const env = {
   ...parsed,
   isProd: parsed.NODE_ENV === 'production',
+  // Browsers send the Origin without a trailing slash, so normalize what was typed in the dashboard.
   clientOrigins: parsed.CLIENT_URL.split(',')
-    .map((s) => s.trim())
+    .map((s) => s.trim().replace(/^["']|["']$/g, '').replace(/\/+$/, ''))
     .filter(Boolean),
   cloudinaryEnabled: Boolean(
     parsed.CLOUDINARY_CLOUD_NAME && parsed.CLOUDINARY_API_KEY && parsed.CLOUDINARY_API_SECRET,
