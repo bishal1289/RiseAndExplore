@@ -35,6 +35,10 @@ export function createApp() {
   app.use(cookieParser());
   app.use('/api', rateLimit({ windowMs: 60_000, limit: 300, standardHeaders: true, legacyHeaders: false }));
 
+  // The API has no web pages; point anyone who opens the root URL to the real site.
+  app.get('/', (_req, res) =>
+    res.json({ name: 'RISE API', status: 'running', website: env.SITE_URL, health: '/api/health' }),
+  );
   app.get('/api/health', (_req, res) => res.json({ ok: true }));
   app.use('/api/auth', authRouter);
   app.use('/api/admin', adminRouter);

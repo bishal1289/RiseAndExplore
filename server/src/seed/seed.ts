@@ -53,8 +53,9 @@ async function seedContent() {
     ]);
   }
 
-  await Settings.create(data.settings);
-  await Homepage.create(data.homepage);
+  // Singletons may already exist (auto-created empty on first API request), so update in place.
+  await Settings.findOneAndUpdate({}, data.settings, { upsert: true });
+  await Homepage.findOneAndUpdate({}, data.homepage, { upsert: true });
 
   const events = await Event.insertMany(data.events);
   const programs = await Program.insertMany(data.programs.map((p, i) => ({ ...p, order: i })));
